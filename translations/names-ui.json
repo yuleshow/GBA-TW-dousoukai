@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "rendererRequirements": {
+    "fontSize": 8,
+    "note": "Uses native 8px glyphs, zero background/outline and constant fill 15. Dialogue/HUD sprites are 8px high; match-order sprites are 16px high with vertically centered glyphs. Chris has only 32px width, insufficient for three 12px cells, so match-order names consistently use native 8px without cropping/downsampling. Loaded by loadUiManifest. All rectangles are native source pixels; sourceInkBounds are relative to each label rectangle."
+  },
+  "coverage": {
+    "dialoguePattern": [1, 23],
+    "dialogueFrames": 22,
+    "hudCharacters": 18,
+    "hudPlayerLabels": 1,
+    "matchOrderPattern": [1, 31],
+    "matchOrderCharacters": 18,
+    "matchOrderSharedFullNamePattern": [1, 29],
+    "notes": [
+      "PAT 23 frames 19 and 20 use tiles 80 and 76 respectively: frame order differs from atlas order.",
+      "The source has まり (真理), not マリコ (真理子). Neither マリコ nor 真理子 was found in the extracted story corpus; no unverified resource mapping is invented.",
+      "ゆかり uses the established short name 由香里. The full story name is 來宮由香里, which does not fit a native 32px name sprite at 8px per character.",
+      "All 18 HUD characters correspond to dialogue frames 0-17. Dialogue-only frames 18-21 are 藤兵衛, 三人, 大家 and unknown speaker.",
+      "IMG 28 / PAT 31 contains all 18 match-order short names. PAT 29 reuses these tiles for full names; surname tiles and the unknown frame remain unchanged. No PAT or SCR edits are needed."
+    ]
+  },
+  "assets": [
+    {
+      "packageId": 1,
+      "resourceId": 28,
+      "description": "All 18 match-order character names, IMG 28 / PAT 31; short-name tiles shared by full-name PAT 29",
+      "sourceSha256": "f5d1ac39bebccf0e05444b8eca7f4e47338261a516021aa60dd3e47820e056d5",
+      "patternSha256": {
+        "29": "afbe6dfabd724100fe325a2f52babbd5cd7f27d208701ecace7324690310ab58",
+        "31": "63cd1a78374608c76d5a1ec662fb79d23dcaff48f6ed53302ba0f98670c9a333"
+      },
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [
+        { "source": "ショウ子", "target": "翔子", "size": [48, 16], "patternResourceId": 31, "patternFrame": 0, "slices": [
+          { "rect": [0, 0, 32, 16], "at": [0, 0] }, { "rect": [32, 0, 16, 16], "at": [32, 0] }
+        ] },
+        { "source": "香澄", "target": "香澄", "rect": [48, 0, 32, 16], "patternResourceId": 31, "patternFrame": 1 },
+        { "source": "未来", "target": "未來", "rect": [80, 0, 32, 16], "patternResourceId": 31, "patternFrame": 2 },
+        { "source": "愛菜", "target": "愛菜", "rect": [0, 32, 32, 16], "patternResourceId": 31, "patternFrame": 3 },
+        { "source": "悠", "target": "悠", "rect": [32, 32, 16, 16], "patternResourceId": 31, "patternFrame": 4 },
+        { "source": "香織", "target": "香織", "rect": [48, 32, 32, 16], "patternResourceId": 31, "patternFrame": 5 },
+        { "source": "みづき", "target": "瑞希", "size": [40, 16], "patternResourceId": 31, "patternFrame": 6, "slices": [
+          { "rect": [112, 0, 32, 16], "at": [0, 0] }, { "rect": [144, 0, 8, 16], "at": [32, 0] }
+        ] },
+        { "source": "綾", "target": "綾", "rect": [152, 0, 16, 16], "patternResourceId": 31, "patternFrame": 7 },
+        { "source": "晶", "target": "晶", "rect": [168, 0, 16, 16], "patternResourceId": 31, "patternFrame": 8 },
+        { "source": "タマミ", "target": "珠美", "size": [40, 16], "patternResourceId": 31, "patternFrame": 9, "slices": [
+          { "rect": [184, 0, 32, 16], "at": [0, 0] }, { "rect": [216, 0, 8, 16], "at": [32, 0] }
+        ] },
+        { "source": "ゆかり", "target": "由香里", "size": [40, 16], "patternResourceId": 31, "patternFrame": 10, "slices": [
+          { "rect": [0, 16, 32, 16], "at": [0, 0] }, { "rect": [32, 16, 8, 16], "at": [32, 0] }
+        ] },
+        { "source": "真理", "target": "真理", "rect": [224, 0, 32, 16], "patternResourceId": 31, "patternFrame": 11 },
+        { "source": "百合奈", "target": "百合奈", "size": [40, 16], "patternResourceId": 31, "patternFrame": 12, "slices": [
+          { "rect": [40, 16, 32, 16], "at": [0, 0] }, { "rect": [72, 16, 8, 16], "at": [32, 0] }
+        ] },
+        { "source": "夏姫", "target": "夏姬", "rect": [80, 16, 32, 16], "patternResourceId": 31, "patternFrame": 13 },
+        { "source": "芹香", "target": "芹香", "rect": [112, 16, 32, 16], "patternResourceId": 31, "patternFrame": 14 },
+        { "source": "クリス", "target": "克莉絲", "rect": [144, 16, 32, 16], "patternResourceId": 31, "patternFrame": 15 },
+        { "source": "エツ子", "target": "悅子", "size": [40, 16], "patternResourceId": 31, "patternFrame": 16, "slices": [
+          { "rect": [176, 16, 32, 16], "at": [0, 0] }, { "rect": [208, 16, 8, 16], "at": [32, 0] }
+        ] },
+        { "source": "ひな子", "target": "雛子", "size": [40, 16], "patternResourceId": 31, "patternFrame": 17, "slices": [
+          { "rect": [216, 16, 32, 16], "at": [0, 0] }, { "rect": [248, 16, 8, 16], "at": [32, 0] }
+        ] }
+      ]
+    },
+    {
+      "packageId": 1,
+      "resourceId": 22,
+      "description": "All dialogue speaker labels, mapped to every frame of PAT 23; 256x24 atlas with 32x8 native sprites",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [
+        { "source": "ショウ子", "target": "翔子", "rect": [0, 0, 32, 8], "patternResourceId": 23, "patternFrame": 0, "sourceInkBounds": [3, 0, 27, 7], "translationAddress": "207670" },
+        { "source": "かすみ", "target": "香澄", "rect": [32, 0, 32, 8], "patternResourceId": 23, "patternFrame": 1, "sourceInkBounds": [4, 0, 23, 7], "translationAddress": "208e29" },
+        { "source": "みき", "target": "未來", "rect": [64, 0, 32, 8], "patternResourceId": 23, "patternFrame": 2, "sourceInkBounds": [8, 0, 15, 7], "translationAddress": "20a1ba" },
+        { "source": "まな", "target": "愛菜", "rect": [96, 0, 32, 8], "patternResourceId": 23, "patternFrame": 3, "sourceInkBounds": [9, 0, 14, 8], "translationAddress": "208fc0" },
+        { "source": "ゆう", "target": "悠", "rect": [128, 0, 32, 8], "patternResourceId": 23, "patternFrame": 4, "sourceInkBounds": [9, 0, 14, 7], "translationAddress": "20911c" },
+        { "source": "かおり", "target": "香織", "rect": [160, 0, 32, 8], "patternResourceId": 23, "patternFrame": 5, "sourceInkBounds": [5, 0, 21, 7], "translationAddress": "2091b1" },
+        { "source": "みづき", "target": "瑞希", "rect": [192, 0, 32, 8], "patternResourceId": 23, "patternFrame": 6, "sourceInkBounds": [5, 0, 22, 7], "translationAddress": "20624f" },
+        { "source": "あや", "target": "綾", "rect": [224, 0, 32, 8], "patternResourceId": 23, "patternFrame": 7, "sourceInkBounds": [9, 0, 14, 7], "translationAddress": "208003" },
+        { "source": "あきら", "target": "晶", "rect": [0, 8, 32, 8], "patternResourceId": 23, "patternFrame": 8, "sourceInkBounds": [6, 0, 20, 7], "translationAddress": "207ea7" },
+        { "source": "タマミ", "target": "珠美", "rect": [32, 8, 32, 8], "patternResourceId": 23, "patternFrame": 9, "sourceInkBounds": [6, 0, 19, 7], "translationAddress": "209639" },
+        { "source": "ゆかり", "target": "由香里", "rect": [64, 8, 32, 8], "patternResourceId": 23, "patternFrame": 10, "sourceInkBounds": [5, 0, 21, 7], "translationAddress": "20982f" },
+        { "source": "まり", "target": "真理", "rect": [96, 8, 32, 8], "patternResourceId": 23, "patternFrame": 11, "sourceInkBounds": [8, 0, 13, 8], "translationAddress": "2098a7" },
+        { "source": "ゆりな", "target": "百合奈", "rect": [128, 8, 32, 8], "patternResourceId": 23, "patternFrame": 12, "sourceInkBounds": [6, 0, 20, 7], "translationAddress": "206a2c" },
+        { "source": "なつき", "target": "夏姬", "rect": [160, 8, 32, 8], "patternResourceId": 23, "patternFrame": 13, "sourceInkBounds": [5, 0, 21, 7], "translationAddress": "209a5a" },
+        { "source": "せりか", "target": "芹香", "rect": [192, 8, 32, 8], "patternResourceId": 23, "patternFrame": 14, "sourceInkBounds": [5, 0, 22, 7], "translationAddress": "20ae15" },
+        { "source": "クリス", "target": "克莉絲", "rect": [224, 8, 32, 8], "patternResourceId": 23, "patternFrame": 15, "sourceInkBounds": [6, 0, 19, 7], "translationAddress": "208433" },
+        { "source": "エツ子", "target": "悅子", "rect": [0, 16, 32, 8], "patternResourceId": 23, "patternFrame": 16, "sourceInkBounds": [4, 0, 24, 7], "translationAddress": "209d9a" },
+        { "source": "ひな子", "target": "雛子", "rect": [32, 16, 32, 8], "patternResourceId": 23, "patternFrame": 17, "sourceInkBounds": [4, 0, 24, 7], "translationAddress": "209e5a" },
+        { "source": "とうべえ", "target": "藤兵衛", "rect": [64, 16, 32, 8], "patternResourceId": 23, "patternFrame": 18, "sourceInkBounds": [2, 0, 28, 7], "translationAddress": "206301" },
+        { "source": "さんにん", "target": "三人", "rect": [128, 16, 32, 8], "patternResourceId": 23, "patternFrame": 19, "sourceInkBounds": [1, 0, 30, 7] },
+        { "source": "みんな", "target": "大家", "rect": [96, 16, 32, 8], "patternResourceId": 23, "patternFrame": 20, "sourceInkBounds": [4, 0, 22, 7] },
+        { "source": "？？？", "target": "？？？", "rect": [160, 16, 32, 8], "patternResourceId": 23, "patternFrame": 21, "sourceInkBounds": [4, 0, 23, 7] }
+      ]
+    },
+    {
+      "packageId": 0, "resourceId": 68,
+      "description": "Mahjong HUD player label; native 40x8 image, adjacent PAT 69",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "プレイヤー", "target": "玩家", "size": [40, 8], "patternResourceId": 69, "patternFrame": 0, "slices": [
+        { "rect": [0, 0, 32, 8], "at": [0, 0] },
+        { "rect": [32, 0, 8, 8], "at": [32, 0] }
+      ] }]
+    },
+    {
+      "packageId": 0, "resourceId": 70, "description": "Mahjong HUD: Shouko; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "ショウ子", "target": "翔子", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 71, "description": "Mahjong HUD: Kasumi; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "かすみ", "target": "香澄", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 72, "description": "Mahjong HUD: Miki; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "みき", "target": "未來", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 73, "description": "Mahjong HUD: Mana; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "まな", "target": "愛菜", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 74, "description": "Mahjong HUD: Yuu; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "ゆう", "target": "悠", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 75, "description": "Mahjong HUD: Kaori; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "かおり", "target": "香織", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 76, "description": "Mahjong HUD: Mizuki; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "みづき", "target": "瑞希", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 77, "description": "Mahjong HUD: Aya; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "あや", "target": "綾", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 78, "description": "Mahjong HUD: Akira; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "あきら", "target": "晶", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0,
+      "resourceId": 79,
+      "description": "Mahjong HUD: Tamami; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [
+        { "source": "タマミ", "target": "珠美", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }
+      ]
+    },
+    {
+      "packageId": 0, "resourceId": 80, "description": "Mahjong HUD: Yukari; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "ゆかり", "target": "由香里", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 81, "description": "Mahjong HUD: Mari; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "まり", "target": "真理", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 82, "description": "Mahjong HUD: Yurina; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "ゆりな", "target": "百合奈", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 83, "description": "Mahjong HUD: Natsuki; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "なつき", "target": "夏姬", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 84, "description": "Mahjong HUD: Serika; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "せりか", "target": "芹香", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 85, "description": "Mahjong HUD: Chris; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "クリス", "target": "克莉絲", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 86, "description": "Mahjong HUD: Etsuko; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "エツ子", "target": "悅子", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    },
+    {
+      "packageId": 0, "resourceId": 87, "description": "Mahjong HUD: Hinako; shared PAT 88 frame 0",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [{ "source": "ひな子", "target": "雛子", "rect": [0, 0, 32, 8], "patternResourceId": 88, "patternFrame": 0 }]
+    }
+  ]
+}

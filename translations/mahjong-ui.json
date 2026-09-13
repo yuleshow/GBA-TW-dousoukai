@@ -1,0 +1,21 @@
+{
+  "assets": [
+    {
+      "packageId": 0,
+      "resourceId": 91,
+      "patternResourceId": 93,
+      "paletteResourceId": 92,
+      "description": "Mahjong right-menu actions; enabled and disabled states share these tiles and two palette banks",
+      "style": { "fontSize": 8, "fill": 15, "outline": 0, "background": 0 },
+      "labels": [
+        { "source": "ロン", "target": "榮和", "patternFrame": 0, "size": [16, 8], "slices": [{ "rect": [0, 0, 16, 8], "at": [0, 0] }] },
+        { "source": "チー", "target": "吃", "patternFrame": 1, "size": [16, 8], "slices": [{ "rect": [16, 0, 16, 8], "at": [0, 0] }] },
+        { "source": "ポン", "target": "碰", "patternFrame": 2, "size": [16, 8], "slices": [{ "rect": [0, 8, 16, 8], "at": [0, 0] }] },
+        { "source": "カン", "target": "槓", "patternFrame": 3, "size": [16, 8], "slices": [{ "rect": [16, 8, 16, 8], "at": [0, 0] }] },
+        { "source": "やめる", "target": "取消", "patternFrame": 4, "size": [32, 8], "slices": [{ "rect": [0, 16, 32, 8], "at": [0, 0] }] },
+        { "source": "リーチ", "target": "立直", "patternFrame": 5, "size": [32, 8], "slices": [{ "rect": [0, 24, 32, 8], "at": [0, 0] }] },
+        { "source": "ツモ", "target": "自摸", "patternFrame": 6, "size": [16, 8], "slices": [{ "rect": [0, 32, 16, 8], "at": [0, 0] }] }
+      ]
+    }
+  ]
+}

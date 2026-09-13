@@ -1,0 +1,128 @@
+{
+  "assets": [
+    {
+      "packageId": 1,
+      "resourceId": 36,
+      "description": "Complete shared costume-name atlas; PAT 37 frames 0-50, excluding hidden frame 45. Frames 4 and 19 share the identical school-uniform suffix.",
+      "patternResourceId": 37,
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [
+        { "source": "ビキニ水着", "target": "比基尼", "patternFrame": 0, "size": [56, 16], "slices": [{ "rect": [88, 144, 32, 16], "at": [0, 0] }, { "rect": [120, 144, 16, 16], "at": [32, 0] }, { "rect": [136, 144, 8, 16], "at": [48, 0] }] },
+        { "source": "レースクィーン", "target": "賽車女郎", "patternFrame": 1, "size": [64, 16], "slices": [{ "rect": [0, 0, 32, 16], "at": [0, 0] }, { "rect": [32, 0, 32, 16], "at": [32, 0] }] },
+        { "source": "アイドル", "target": "偶像", "patternFrame": 2, "size": [40, 16], "slices": [{ "rect": [64, 0, 32, 16], "at": [0, 0] }, { "rect": [96, 0, 8, 16], "at": [32, 0] }] },
+        { "source": "ホットパンツ", "target": "短褲", "patternFrame": 3, "size": [56, 16], "slices": [{ "rect": [104, 0, 32, 16], "at": [0, 0] }, { "rect": [136, 0, 16, 16], "at": [32, 0] }, { "rect": [152, 0, 8, 16], "at": [48, 0] }] },
+        { "source": "緑陽高校制服", "target": "綠陽高中制服", "patternFrame": 4, "size": [72, 16], "slices": [{ "rect": [160, 0, 32, 16], "at": [0, 0] }, { "rect": [192, 0, 32, 16], "at": [32, 0] }, { "rect": [224, 0, 8, 16], "at": [64, 0] }] },
+        { "source": "ワンピース水着", "target": "連身泳裝", "patternFrame": 5, "size": [72, 16], "slices": [{ "rect": [48, 48, 32, 16], "at": [0, 0] }, { "rect": [80, 48, 32, 16], "at": [32, 0] }, { "rect": [112, 48, 8, 16], "at": [64, 0] }] },
+        { "source": "ゴスロリ", "target": "哥德裝", "patternFrame": 6, "size": [40, 16], "slices": [{ "rect": [0, 16, 32, 16], "at": [0, 0] }, { "rect": [32, 16, 8, 16], "at": [32, 0] }] },
+        { "source": "Yシャツ", "target": "襯衫", "patternFrame": 7, "size": [40, 16], "slices": [{ "rect": [40, 16, 32, 16], "at": [0, 0] }, { "rect": [72, 16, 8, 16], "at": [32, 0] }] },
+        { "source": "茶屋娘", "target": "茶屋娘", "patternFrame": 8, "size": [40, 16], "slices": [{ "rect": [80, 16, 32, 16], "at": [0, 0] }, { "rect": [112, 16, 8, 16], "at": [32, 0] }] },
+        { "source": "星南女子制服", "target": "星南女子制服", "patternFrame": 9, "size": [72, 16], "slices": [{ "rect": [120, 16, 32, 16], "at": [0, 0] }, { "rect": [152, 16, 32, 16], "at": [32, 0] }, { "rect": [184, 16, 8, 16], "at": [64, 0] }] },
+        { "source": "はかま", "target": "袴裝", "patternFrame": 10, "size": [32, 16], "slices": [{ "rect": [192, 16, 32, 16], "at": [0, 0] }] },
+        { "source": "競泳用水着", "target": "競賽泳裝", "patternFrame": 11, "size": [56, 16], "slices": [{ "rect": [0, 32, 32, 16], "at": [0, 0] }, { "rect": [32, 32, 16, 16], "at": [32, 0] }, { "rect": [48, 32, 8, 16], "at": [48, 0] }] },
+        { "source": "アラビアン", "target": "阿拉伯裝", "patternFrame": 12, "size": [56, 16], "slices": [{ "rect": [56, 32, 32, 16], "at": [0, 0] }, { "rect": [88, 32, 16, 16], "at": [32, 0] }, { "rect": [104, 32, 8, 16], "at": [48, 0] }] },
+        { "source": "久藤山聖女制服", "target": "久藤山聖女服", "patternFrame": 13, "size": [72, 16], "slices": [{ "rect": [112, 32, 32, 16], "at": [0, 0] }, { "rect": [144, 32, 32, 16], "at": [32, 0] }, { "rect": [176, 32, 8, 16], "at": [64, 0] }] },
+        { "source": "レオタード", "target": "體操衣", "patternFrame": 14, "size": [48, 16], "slices": [{ "rect": [0, 48, 32, 16], "at": [0, 0] }, { "rect": [32, 48, 16, 16], "at": [32, 0] }] },
+        { "source": "アリス服", "target": "愛麗絲", "patternFrame": 15, "size": [40, 16], "slices": [{ "rect": [120, 48, 32, 16], "at": [0, 0] }, { "rect": [152, 48, 8, 16], "at": [32, 0] }] },
+        { "source": "オーバーニー", "target": "過膝襪", "patternFrame": 16, "size": [64, 16], "slices": [{ "rect": [0, 144, 32, 16], "at": [0, 0] }, { "rect": [32, 144, 32, 16], "at": [32, 0] }] },
+        { "source": "パーカー", "target": "連帽衫", "patternFrame": 17, "size": [40, 16], "slices": [{ "rect": [216, 48, 32, 16], "at": [0, 0] }, { "rect": [248, 48, 8, 16], "at": [32, 0] }] },
+        { "source": "体操服", "target": "運動服", "patternFrame": 18, "size": [40, 16], "slices": [{ "rect": [0, 64, 32, 16], "at": [0, 0] }, { "rect": [32, 64, 8, 16], "at": [32, 0] }] },
+        { "source": "初瀬高校制服", "target": "初瀨高中制服", "patternFrame": 19, "size": [72, 16], "slices": [{ "rect": [184, 0, 32, 16], "at": [24, 0] }, { "rect": [216, 0, 16, 16], "at": [56, 0] }, { "rect": [40, 64, 16, 16], "at": [0, 0] }, { "rect": [56, 64, 8, 16], "at": [16, 0] }] },
+        { "source": "ボディコン", "target": "緊身裙", "patternFrame": 20, "size": [48, 16], "slices": [{ "rect": [64, 64, 32, 16], "at": [0, 0] }, { "rect": [96, 64, 16, 16], "at": [32, 0] }] },
+        { "source": "軍服", "target": "軍服", "patternFrame": 21, "size": [24, 16], "slices": [{ "rect": [112, 64, 16, 16], "at": [0, 0] }, { "rect": [128, 64, 8, 16], "at": [16, 0] }] },
+        { "source": "シスター", "target": "修女", "patternFrame": 22, "size": [40, 16], "slices": [{ "rect": [136, 64, 32, 16], "at": [0, 0] }, { "rect": [168, 64, 8, 16], "at": [32, 0] }] },
+        { "source": "バニーガール", "target": "兔女郎", "patternFrame": 23, "size": [64, 16], "slices": [{ "rect": [0, 80, 32, 16], "at": [0, 0] }, { "rect": [32, 80, 32, 16], "at": [32, 0] }] },
+        { "source": "ウェディング", "target": "婚紗", "patternFrame": 24, "size": [56, 16], "slices": [{ "rect": [64, 80, 32, 16], "at": [0, 0] }, { "rect": [96, 80, 16, 16], "at": [32, 0] }, { "rect": [112, 80, 8, 16], "at": [48, 0] }] },
+        { "source": "ウェイトレス", "target": "女服務生", "patternFrame": 25, "size": [56, 16], "slices": [{ "rect": [144, 144, 32, 16], "at": [0, 0] }, { "rect": [176, 144, 16, 16], "at": [32, 0] }, { "rect": [192, 144, 8, 16], "at": [48, 0] }] },
+        { "source": "キュロット", "target": "裙褲", "patternFrame": 26, "size": [48, 16], "slices": [{ "rect": [208, 64, 32, 16], "at": [0, 0] }, { "rect": [240, 64, 16, 16], "at": [32, 0] }] },
+        { "source": "パジャマ", "target": "睡衣", "patternFrame": 27, "size": [40, 16], "slices": [{ "rect": [0, 96, 32, 16], "at": [0, 0] }, { "rect": [32, 96, 8, 16], "at": [32, 0] }] },
+        { "source": "チャイナドレス", "target": "旗袍", "patternFrame": 28, "size": [64, 16], "slices": [{ "rect": [40, 96, 32, 16], "at": [0, 0] }, { "rect": [72, 96, 32, 16], "at": [32, 0] }] },
+        { "source": "月浪学園制服", "target": "月浪學園制服", "patternFrame": 29, "size": [72, 16], "slices": [{ "rect": [104, 96, 32, 16], "at": [0, 0] }, { "rect": [136, 96, 32, 16], "at": [32, 0] }, { "rect": [168, 96, 8, 16], "at": [64, 0] }] },
+        { "source": "ゆかた", "target": "浴衣", "patternFrame": 30, "size": [32, 16], "slices": [{ "rect": [184, 80, 32, 16], "at": [0, 0] }] },
+        { "source": "スクール水着", "target": "學校泳裝", "patternFrame": 31, "size": [64, 16], "slices": [{ "rect": [64, 112, 32, 16], "at": [0, 0] }, { "rect": [96, 112, 32, 16], "at": [32, 0] }] },
+        { "source": "城西高校制服", "target": "城西高中制服", "patternFrame": 32, "size": [72, 16], "slices": [{ "rect": [176, 96, 32, 16], "at": [0, 0] }, { "rect": [208, 96, 32, 16], "at": [32, 0] }, { "rect": [240, 96, 8, 16], "at": [64, 0] }] },
+        { "source": "ボンデージ", "target": "皮革裝", "patternFrame": 33, "size": [56, 16], "slices": [{ "rect": [0, 128, 32, 16], "at": [0, 0] }, { "rect": [32, 128, 16, 16], "at": [32, 0] }, { "rect": [48, 128, 8, 16], "at": [48, 0] }] },
+        { "source": "ナース", "target": "護士", "patternFrame": 34, "size": [32, 16], "slices": [{ "rect": [56, 128, 32, 16], "at": [0, 0] }] },
+        { "source": "事務服", "target": "辦公服", "patternFrame": 35, "size": [40, 16], "slices": [{ "rect": [88, 128, 32, 16], "at": [0, 0] }, { "rect": [120, 128, 8, 16], "at": [32, 0] }] },
+        { "source": "バレーボール", "target": "排球服", "patternFrame": 36, "size": [64, 16], "slices": [{ "rect": [128, 128, 32, 16], "at": [0, 0] }, { "rect": [160, 128, 32, 16], "at": [32, 0] }] },
+        { "source": "テニス", "target": "網球", "patternFrame": 37, "size": [32, 16], "slices": [{ "rect": [192, 128, 32, 16], "at": [0, 0] }] },
+        { "source": "聖歌隊", "target": "聖歌隊", "patternFrame": 38, "size": [40, 16], "slices": [{ "rect": [216, 80, 32, 16], "at": [0, 0] }, { "rect": [248, 80, 8, 16], "at": [32, 0] }] },
+        { "source": "チアリーダー", "target": "啦啦隊", "patternFrame": 39, "size": [64, 16], "slices": [{ "rect": [120, 80, 32, 16], "at": [0, 0] }, { "rect": [152, 80, 32, 16], "at": [32, 0] }] },
+        { "source": "巫女", "target": "巫女", "patternFrame": 40, "size": [24, 16], "slices": [{ "rect": [232, 0, 16, 16], "at": [0, 0] }, { "rect": [248, 0, 8, 16], "at": [16, 0] }] },
+        { "source": "白衣", "target": "白袍", "patternFrame": 41, "size": [24, 16], "slices": [{ "rect": [64, 144, 16, 16], "at": [0, 0] }, { "rect": [80, 144, 8, 16], "at": [16, 0] }] },
+        { "source": "サンタ", "target": "聖誕", "patternFrame": 42, "size": [32, 16], "slices": [{ "rect": [224, 128, 32, 16], "at": [0, 0] }] },
+        { "source": "スチュワーデス", "target": "空服員", "patternFrame": 43, "size": [72, 16], "slices": [{ "rect": [184, 32, 32, 16], "at": [0, 0] }, { "rect": [216, 32, 32, 16], "at": [32, 0] }, { "rect": [248, 32, 8, 16], "at": [64, 0] }] },
+        { "source": "国旗ガール", "target": "國旗女郎", "patternFrame": 44, "size": [56, 16], "slices": [{ "rect": [160, 48, 32, 16], "at": [0, 0] }, { "rect": [192, 48, 16, 16], "at": [32, 0] }, { "rect": [208, 48, 8, 16], "at": [48, 0] }] },
+        { "source": "ポリス", "target": "警察", "patternFrame": 46, "size": [32, 16], "slices": [{ "rect": [224, 16, 32, 16], "at": [0, 0] }] },
+        { "source": "メイド", "target": "女僕", "patternFrame": 47, "size": [32, 16], "slices": [{ "rect": [176, 64, 32, 16], "at": [0, 0] }] },
+        { "source": "マーチング", "target": "行進樂隊", "patternFrame": 48, "size": [56, 16], "slices": [{ "rect": [200, 144, 32, 16], "at": [0, 0] }, { "rect": [232, 144, 16, 16], "at": [32, 0] }, { "rect": [248, 144, 8, 16], "at": [48, 0] }] },
+        { "source": "小学生ルック", "target": "小學生服", "patternFrame": 49, "size": [64, 16], "slices": [{ "rect": [0, 112, 32, 16], "at": [0, 0] }, { "rect": [32, 112, 32, 16], "at": [32, 0] }] },
+        { "source": "オーバーオール", "target": "吊帶褲", "patternFrame": 50, "size": [72, 16], "slices": [{ "rect": [184, 112, 32, 16], "at": [0, 0] }, { "rect": [216, 112, 32, 16], "at": [32, 0] }, { "rect": [248, 112, 8, 16], "at": [64, 0] }] }
+      ]
+    },
+    {
+      "packageId": 1,
+      "resourceId": 419,
+      "description": "Minigame SHOT and STOP labels, PAT 424 frames 3 and 2. Preserve the A button, circle, arrows and frame graphics.",
+      "patternResourceId": 424,
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [
+        { "source": "SHOT", "target": "發射", "patternFrame": 3, "patternOrigin": [67, 33], "size": [40, 16], "slices": [
+          { "rect": [40, 0, 32, 16], "at": [0, 0] }, { "rect": [72, 0, 8, 16], "at": [32, 0] }
+        ] },
+        { "source": "STOP", "target": "停止", "patternFrame": 2, "patternOrigin": [67, 33], "size": [40, 16], "slices": [
+          { "rect": [40, 16, 32, 16], "at": [0, 0] }, { "rect": [72, 16, 8, 16], "at": [32, 0] }
+        ] }
+      ]
+    },
+    {
+      "packageId": 1,
+      "resourceId": 437,
+      "description": "Costume roulette heading, SCR 438. Scatter blank label margins into old glyph overhang; unused tile 58 receives surplus padding. Preserve shared and mirrored border tiles.",
+      "screenResourceId": 438,
+      "screenTextRect": [12, 8, 136, 16],
+      "screenClearRect": [12, 6, 136, 18],
+      "style": { "fill": 1, "outline": 15, "background": 15 },
+      "labels": [
+        { "source": "コスプレルーレット", "target": "換裝輪盤", "size": [152, 16], "slices": [
+          { "rect": [140, 0, 116, 8], "at": [8, 0] },
+          { "rect": [0, 8, 20, 8], "at": [124, 0] },
+          { "rect": [36, 8, 136, 8], "at": [8, 8] },
+          { "rect": [16, 6, 8, 2], "at": [0, 0] }, { "rect": [24, 6, 8, 2], "at": [144, 0] },
+          { "rect": [32, 6, 8, 2], "at": [0, 2] }, { "rect": [40, 6, 8, 2], "at": [144, 2] },
+          { "rect": [48, 6, 8, 2], "at": [0, 4] }, { "rect": [56, 6, 8, 2], "at": [144, 4] },
+          { "rect": [64, 6, 8, 2], "at": [0, 6] }, { "rect": [72, 6, 8, 2], "at": [144, 6] },
+          { "rect": [80, 6, 8, 2], "at": [0, 8] }, { "rect": [88, 6, 8, 2], "at": [144, 8] },
+          { "rect": [96, 6, 8, 2], "at": [0, 10] }, { "rect": [104, 6, 8, 2], "at": [144, 10] },
+          { "rect": [112, 6, 8, 2], "at": [0, 12] }, { "rect": [120, 6, 8, 2], "at": [144, 12] },
+          { "rect": [208, 8, 8, 2], "at": [0, 14] }, { "rect": [208, 10, 8, 2], "at": [144, 14] }
+        ] }
+      ]
+    },
+    {
+      "packageId": 1,
+      "resourceId": 439,
+      "description": "Costume rapid-press heading, SCR 440. Scatter blank margins into old glyph overhang, with unused tiles 49-50 receiving surplus padding. Preserve mirrored corners and reused blank tiles.",
+      "screenResourceId": 440,
+      "screenTextRect": [16, 8, 96, 16],
+      "screenClearRect": [16, 4, 96, 21],
+      "style": { "fill": 1, "outline": 15, "background": 15 },
+      "labels": [
+        { "source": "コスプレ連打", "target": "換裝連打", "size": [128, 16], "slices": [
+          { "rect": [128, 0, 96, 8], "at": [16, 0] },
+          { "rect": [232, 0, 24, 8], "at": [16, 8] }, { "rect": [0, 8, 72, 8], "at": [40, 8] },
+          { "rect": [16, 4, 8, 4], "at": [0, 0] }, { "rect": [24, 4, 8, 4], "at": [8, 0] },
+          { "rect": [32, 4, 8, 4], "at": [112, 0] }, { "rect": [40, 4, 8, 4], "at": [120, 0] },
+          { "rect": [48, 4, 8, 4], "at": [0, 4] }, { "rect": [56, 4, 8, 4], "at": [8, 4] },
+          { "rect": [64, 4, 8, 4], "at": [112, 4] }, { "rect": [72, 4, 8, 4], "at": [120, 4] },
+          { "rect": [80, 4, 8, 4], "at": [0, 8] }, { "rect": [88, 4, 8, 4], "at": [8, 8] },
+          { "rect": [96, 4, 8, 4], "at": [112, 8] }, { "rect": [104, 4, 8, 4], "at": [120, 8] },
+          { "rect": [88, 8, 8, 1], "at": [0, 12] }, { "rect": [96, 8, 8, 1], "at": [8, 12] },
+          { "rect": [104, 8, 8, 1], "at": [112, 12] }, { "rect": [112, 8, 8, 1], "at": [120, 12] },
+          { "rect": [120, 8, 8, 1], "at": [0, 13] }, { "rect": [128, 8, 8, 1], "at": [8, 13] },
+          { "rect": [136, 8, 8, 1], "at": [112, 13] }, { "rect": [144, 8, 8, 1], "at": [120, 13] },
+          { "rect": [136, 9, 16, 2], "at": [0, 14] }, { "rect": [136, 11, 16, 2], "at": [112, 14] }
+        ] }
+      ]
+    }
+  ]
+}

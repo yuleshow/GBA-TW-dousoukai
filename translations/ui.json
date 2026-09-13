@@ -1,0 +1,319 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "packageId": 1,
+      "resourceId": 136,
+      "description": "Title menu and story start submenu",
+      "labels": [
+        { "source": "スタートボタンをおしてね！", "target": "請按開始鍵", "rect": [0, 0, 160, 16] },
+        { "source": "ストーリー", "target": "故事模式", "rect": [0, 16, 56, 16] },
+        { "source": "フリー対戦", "target": "自由對戰", "rect": [56, 16, 56, 16] },
+        { "source": "アルバム", "target": "相簿", "rect": [112, 16, 56, 16] },
+        { "source": "つづきから", "target": "繼續遊戲", "rect": [0, 32, 56, 16] },
+        { "source": "はじめから", "target": "重新開始", "rect": [56, 32, 56, 16] },
+        { "source": "オプション", "target": "設定", "rect": [112, 32, 56, 16] }
+      ]
+    },
+    {
+      "packageId": 1,
+      "resourceId": 445,
+      "description": "Shared options labels and values",
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [
+        { "source": "むずかしさ", "target": "難易程度", "rect": [0, 0, 64, 16] },
+        { "source": "むずかしい", "target": "困難", "rect": [168, 16, 32, 16] },
+        { "source": "かんたん", "target": "簡單", "rect": [80, 0, 48, 16] },
+        { "source": "食いタン", "target": "食斷", "rect": [128, 0, 48, 16] },
+        { "source": "文字速度", "target": "文字速度", "rect": [176, 0, 56, 16] },
+        { "source": "おそい", "target": "慢", "rect": [0, 16, 40, 16] },
+        { "source": "はやい", "target": "快", "rect": [40, 16, 40, 16] },
+        { "source": "ふつう", "target": "普通", "rect": [80, 16, 40, 16] },
+        { "source": "あり", "target": "有", "rect": [120, 16, 24, 16] },
+        { "source": "なし", "target": "無", "rect": [144, 16, 24, 16] },
+        { "source": "しゅんかん", "target": "瞬間", "rect": [200, 16, 32, 16] }
+      ]
+    },
+    {
+      "packageId": 1, "resourceId": 33, "description": "Shared back action",
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [{ "source": "もどる", "target": "返回", "rect": [0, 0, 40, 16] }]
+    },
+    {
+      "packageId": 1, "resourceId": 235, "description": "Team player positions",
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [
+        { "source": "先鋒", "target": "先鋒", "rect": [0, 0, 32, 16] },
+        { "source": "次鋒", "target": "次鋒", "rect": [32, 0, 32, 16] },
+        { "source": "大将", "target": "主將", "rect": [64, 0, 32, 16] }
+      ]
+    },
+    {
+      "packageId": 1, "resourceId": 265, "description": "Match result heading",
+      "labels": [{ "source": "対戦成績", "target": "對戰成績", "rect": [0, 0, 72, 24] }]
+    },
+    {
+      "packageId": 1, "resourceId": 239, "description": "Points and bonus thresholds",
+      "labels": [
+        { "source": "持点", "target": "持點", "rect": [0, 0, 32, 16], "align": "right" },
+        { "source": "次の", "target": "下次", "rect": [0, 16, 32, 16] },
+        { "source": "満貫", "target": "滿貫", "rect": [32, 0, 32, 16] },
+        { "source": "ハネ満", "target": "跳滿", "rect": [64, 0, 40, 16] },
+        { "source": "倍満", "target": "倍滿", "rect": [104, 0, 32, 16] },
+        { "source": "ボーナス", "target": "獎勵", "rect": [32, 16, 48, 16] },
+        { "source": "3倍満", "target": "三倍滿", "rect": [96, 16, 40, 16] }
+      ]
+    },
+    {
+      "packageId": 1, "resourceId": 258, "description": "Composite circular team selection heading",
+      "style": { "fill": 1, "outline": 15, "background": 15 },
+      "labels": [
+        { "source": "チーム", "target": "隊伍", "size": [56, 24], "slices": [
+          { "rect": [8, 16, 56, 16], "at": [0, 0] },
+          { "rect": [80, 0, 56, 8], "at": [0, 16] }
+        ] },
+        { "source": "選択", "target": "選擇", "rect": [88, 8, 40, 16] }
+      ]
+    },
+    {
+      "packageId": 1, "resourceId": 262, "description": "Match order heading",
+      "style": { "fill": 1, "outline": 15, "background": 15 },
+      "labels": [{ "source": "対戦順決定", "target": "對戰順序", "rect": [24, 4, 88, 24] }]
+    },
+    {
+      "packageId": 1, "resourceId": 354, "description": "Continue heading reconstructed by SCR 356; fixed blank tiles require native 8px glyphs at integer 2x scale",
+      "style": { "fontSize": 8, "scale": 2, "outline": 0, "background": 0 },
+      "labels": [{ "source": "コンティニューする？", "target": "要繼續嗎？", "size": [216, 32], "slices": [
+        { "rect": [16, 0, 64, 8], "at": [0, 0] },
+        { "rect": [0, 0, 8, 8], "at": [64, 0] },
+        { "rect": [80, 0, 32, 8], "at": [72, 0] },
+        { "rect": [8, 0, 8, 8], "at": [104, 0] },
+        { "rect": [184, 0, 24, 8], "at": [112, 0] },
+        { "rect": [168, 8, 8, 8], "at": [136, 0] },
+        { "rect": [112, 0, 72, 8], "at": [144, 0] },
+        { "rect": [208, 0, 8, 8], "at": [0, 8] },
+        { "rect": [88, 24, 40, 8], "at": [8, 8] },
+        { "rect": [0, 8, 168, 8], "at": [48, 8] },
+        { "rect": [184, 8, 32, 8], "at": [0, 16] },
+        { "rect": [128, 24, 40, 8], "at": [32, 16] },
+        { "rect": [0, 16, 144, 8], "at": [72, 16] },
+        { "rect": [160, 16, 32, 8], "at": [0, 24] },
+        { "rect": [176, 8, 8, 8], "at": [32, 24] },
+        { "rect": [192, 16, 16, 8], "at": [40, 24] },
+        { "rect": [144, 16, 8, 8], "at": [56, 24] },
+        { "rect": [208, 16, 8, 8], "at": [64, 24] },
+        { "rect": [168, 24, 40, 8], "at": [72, 24] },
+        { "rect": [0, 24, 16, 8], "at": [112, 24] },
+        { "rect": [152, 16, 8, 8], "at": [128, 24] },
+        { "rect": [208, 24, 8, 8], "at": [136, 24] },
+        { "rect": [16, 24, 72, 8], "at": [144, 24] }
+      ] }]
+    },
+    {
+      "packageId": 1, "resourceId": 364, "description": "Continue prompt",
+      "labels": [{ "source": "スタートボタンでコンティニュー", "target": "按開始鍵續關", "rect": [0, 0, 160, 16] }]
+    },
+    {
+      "packageId": 1, "resourceId": 376, "description": "Continue countdown caption",
+      "labels": [{ "source": "のこり", "target": "剩餘", "rect": [0, 0, 32, 16] }]
+    },
+    {
+      "packageId": 1,
+      "resourceId": 448,
+      "description": "Save data initialization action",
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [
+        { "source": "セーブデータ初期化", "target": "初始化存檔", "rect": [0, 0, 112, 16] }
+      ]
+    },
+    {
+      "packageId": 1,
+      "resourceId": 451,
+      "description": "Options screen heading",
+      "labels": [
+        { "source": "オプション", "target": "設定", "rect": [0, 0, 80, 24] }
+      ]
+    },
+    {
+      "packageId": 1,
+      "resourceId": 463,
+      "description": "Album categories",
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [
+        { "source": "キャラ別", "target": "角色", "rect": [0, 0, 48, 16] },
+        { "source": "スペシャル", "target": "特別", "rect": [48, 0, 56, 16] },
+        { "source": "スライドショー", "target": "幻燈片", "rect": [104, 0, 56, 16] },
+        { "source": "設定", "target": "設定", "rect": [160, 0, 24, 16] }
+      ]
+    },
+    {
+      "packageId": 1,
+      "resourceId": 472,
+      "description": "Album slideshow settings and values",
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [
+        { "source": "切替速度", "target": "切換速度", "rect": [0, 0, 56, 16] },
+        { "source": "ループ設定", "target": "循環播放", "rect": [56, 0, 64, 16] },
+        { "source": "サウンド", "target": "聲音", "rect": [120, 0, 48, 16] },
+        { "source": "ふつう", "target": "普通", "rect": [168, 0, 40, 16] },
+        { "source": "あり", "target": "有", "rect": [0, 16, 24, 16] },
+        { "source": "なし", "target": "無", "rect": [24, 16, 24, 16] },
+        { "source": "ランダム", "target": "隨機", "rect": [72, 16, 48, 16] },
+        { "source": "おそい", "target": "慢", "rect": [120, 16, 40, 16] },
+        { "source": "はやい", "target": "快", "rect": [160, 16, 40, 16] }
+      ]
+    },
+    {
+      "packageId": 1, "resourceId": 466, "description": "Album team category labels",
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [
+        { "source": "チーム", "target": "隊伍", "rect": [48, 0, 40, 16] },
+        { "source": "ボス", "target": "首領", "rect": [160, 0, 24, 16] }
+      ]
+    },
+    {
+      "packageId": 1, "resourceId": 469, "description": "Album clear and ending categories",
+      "style": { "fill": 15, "outline": 1 },
+      "labels": [
+        { "source": "チームクリア", "target": "隊伍通關", "rect": [0, 0, 72, 16] },
+        { "source": "エンディング", "target": "結局", "rect": [72, 0, 72, 16] }
+      ]
+    },
+    {
+      "packageId": 1, "resourceId": 529, "description": "Album main heading",
+      "labels": [{ "source": "アルバム", "target": "相簿", "rect": [0, 0, 72, 24] }]
+    },
+    {
+      "packageId": 1, "resourceId": 532, "description": "Album team heading",
+      "labels": [{ "source": "アルバム チーム選択", "target": "相簿：隊伍選擇", "rect": [0, 0, 152, 24] }]
+    },
+    {
+      "packageId": 1, "resourceId": 535, "description": "Album character heading",
+      "labels": [{ "source": "アルバム キャラクター選択", "target": "相簿：角色選擇", "rect": [0, 0, 192, 24] }]
+    },
+    {
+      "packageId": 1, "resourceId": 538, "description": "Album picture heading",
+      "labels": [{ "source": "アルバム ピンナップ選択", "target": "相簿：圖片選擇", "rect": [0, 0, 176, 24] }]
+    },
+    {
+      "packageId": 1, "resourceId": 541, "description": "Album special picture heading",
+      "labels": [{ "source": "アルバム SPピンナップ選択", "target": "相簿：特別圖片", "rect": [0, 0, 200, 24] }]
+    },
+    {
+      "packageId": 1, "resourceId": 544, "description": "Album slideshow heading",
+      "labels": [{ "source": "アルバム スライドショー設定", "target": "相簿：幻燈片設定", "rect": [0, 0, 200, 24] }]
+    },
+    {
+      "packageId": 0, "resourceId": 229, "description": "Automatic draw prompt",
+      "labels": [{ "source": "オートツモ", "target": "自動摸牌", "rect": [0, 0, 160, 16] }]
+    },
+    {
+      "packageId": 0, "resourceId": 230, "description": "Ron prompt",
+      "labels": [{ "source": "ロンできます", "target": "可榮和", "rect": [0, 0, 160, 16] }]
+    },
+    {
+      "packageId": 0, "resourceId": 231, "description": "Tsumo prompt",
+      "labels": [{ "source": "ツモできます", "target": "可自摸", "rect": [0, 0, 160, 16] }]
+    },
+    {
+      "packageId": 0, "resourceId": 232, "description": "Riichi prompt",
+      "labels": [{ "source": "リーチできます", "target": "可立直", "rect": [0, 0, 160, 16] }]
+    },
+    {
+      "packageId": 0, "resourceId": 233, "description": "Meld selection prompt",
+      "labels": [{ "source": "組み合わせを選んでください", "target": "請選擇組合", "rect": [0, 0, 160, 16] }]
+    },
+    {
+      "packageId": 0, "resourceId": 234, "description": "Waiting tiles prompt",
+      "labels": [{ "source": "待ちパイ", "target": "聽牌張", "rect": [0, 0, 160, 16] }]
+    },
+    {
+      "packageId": 0, "resourceId": 235, "description": "Furiten waiting tiles prompt",
+      "labels": [{ "source": "待ちパイ（フリテン）", "target": "聽牌張（振聽）", "rect": [0, 0, 160, 16] }]
+    },
+    { "packageId": 1, "resourceId": 1752, "description": "Alternate riichi call", "style": { "scale": 2 }, "labels": [{ "source": "リーチ！", "target": "立直！", "rect": [0, 0, 128, 64] }] },
+    { "packageId": 0, "resourceId": 214, "description": "Pon call", "style": { "scale": 2 }, "labels": [{ "source": "ポン！", "target": "碰！", "rect": [0, 0, 128, 64] }] },
+    { "packageId": 0, "resourceId": 215, "description": "Chi call", "style": { "scale": 2 }, "labels": [{ "source": "チー！", "target": "吃！", "rect": [0, 0, 128, 64] }] },
+    { "packageId": 0, "resourceId": 216, "description": "Kan call", "style": { "scale": 2 }, "labels": [{ "source": "カン！", "target": "槓！", "rect": [0, 0, 128, 64] }] },
+    { "packageId": 0, "resourceId": 217, "description": "Riichi call", "style": { "scale": 2 }, "labels": [{ "source": "リーチ！", "target": "立直！", "rect": [0, 0, 128, 64] }] },
+    { "packageId": 0, "resourceId": 218, "description": "Ron call", "style": { "scale": 2 }, "labels": [{ "source": "ロン！", "target": "榮和！", "rect": [0, 0, 128, 64] }] },
+    { "packageId": 0, "resourceId": 219, "description": "Tsumo call", "style": { "scale": 2 }, "labels": [{ "source": "ツモ！！", "target": "自摸！", "rect": [0, 0, 128, 64] }] },
+    { "packageId": 0, "resourceId": 220, "description": "Draw call", "style": { "scale": 2 }, "labels": [{ "source": "流局", "target": "流局", "rect": [0, 0, 128, 64] }] },
+    { "packageId": 0, "resourceId": 221, "description": "Noten and tenpai calls", "style": { "scale": 2 }, "labels": [
+      { "source": "ノーテン", "target": "未聽牌", "rect": [0, 0, 128, 32] },
+      { "source": "テンパイ", "target": "聽牌", "rect": [0, 32, 128, 32] }
+    ] },
+    { "packageId": 0, "resourceId": 193, "description": "Shared result yakuman label and double/triple multipliers, verified against SCR 194-196", "labels": [
+      { "source": "ダブル", "target": "雙倍", "size": [48, 16], "tiles": [1, 2, 3, 4, 5, 6, 67, 68, 69, 70, 71, 96] },
+      { "source": "トリプル", "target": "三倍", "size": [56, 16], "tiles": [101, 102, 103, 128, 129, 130, 131, 132, 133, 134, 135, 32, 33, 34] },
+      { "source": "役満", "target": "役滿", "size": [32, 16], "tiles": [7, 64, 65, 66, 97, 98, 99, 100] },
+      { "source": "数え", "target": "累計", "size": [32, 16], "tiles": [35, 36, 37, 38, 39, 160, 161, 162] }
+    ] },
+    { "packageId": 0, "resourceId": 164, "description": "Mangan result, verified against SCR 165", "labels": [
+      { "source": "満貫", "target": "滿貫", "size": [32, 16], "tiles": [1, 2, 3, 4, 38, 39, 96, 97] },
+      { "source": "ハネ", "target": "跳", "size": [32, 16], "tiles": [5, 6, 7, 64, 98, 99, 100, 101] },
+      { "source": "満", "target": "滿", "size": [16, 16], "tiles": [65, 66, 102, 103] }
+    ] },
+    { "packageId": 0, "resourceId": 119, "description": "Scoring: riichi", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "リーチ", "target": "立直", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 120, "description": "Scoring: concealed self draw", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "門前自摸", "target": "門前清自摸和", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 121, "description": "Scoring: pinfu", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "平和", "target": "平和", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 122, "description": "Scoring: identical sequences", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "一盃口", "target": "一盃口", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 123, "description": "Scoring: last discard", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "河底", "target": "河底撈魚", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 124, "description": "Scoring: mixed triple sequence", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "三色同順", "target": "三色同順", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 125, "description": "Scoring: all triplets", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "対々和", "target": "對對和", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 126, "description": "Scoring: double riichi", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "ダブルリーチ", "target": "雙立直", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 127, "description": "Scoring: three concealed triplets", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "三暗刻", "target": "三暗刻", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 128, "description": "Scoring: three quads", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "三槓子", "target": "三槓子", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 129, "description": "Scoring: small three dragons", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "小三元", "target": "小三元", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 130, "description": "Scoring: pure outside hand", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "純全帯么", "target": "純全帶么九", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 131, "description": "Scoring: full flush", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "清一色", "target": "清一色", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 132, "description": "Scoring: terminal discard draw", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "流し満貫", "target": "流局滿貫", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 133, "description": "Scoring: four concealed triplets", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "四暗刻", "target": "四暗刻", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 134, "description": "Scoring: small four winds", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "小四喜", "target": "小四喜", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 135, "description": "Scoring: blessing of heaven", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "天和", "target": "天和", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 136, "description": "Scoring: all honors", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "字一色", "target": "字一色", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 137, "description": "Scoring: all terminals", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "清老頭", "target": "清老頭", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 138, "description": "Scoring: four quads", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "四槓子", "target": "四槓子", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 139, "description": "Scoring: one shot", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "一発", "target": "一發", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 140, "description": "Scoring: value honors", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "翻牌", "target": "役牌", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 141, "description": "Scoring: all simples", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "断么九", "target": "斷么九", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 142, "description": "Scoring: last draw", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "海底", "target": "海底摸月", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 143, "description": "Scoring: replacement draw", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "嶺上開花", "target": "嶺上開花", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 144, "description": "Scoring: pure straight", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "一気通貫", "target": "一氣通貫", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 145, "description": "Scoring: seven pairs", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "七対子", "target": "七對子", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 146, "description": "Scoring: mixed outside hand", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "全帯么", "target": "混全帶么九", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 147, "description": "Scoring: mixed triple triplets", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "三色同刻", "target": "三色同刻", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 148, "description": "Scoring: terminals and honors", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "混老頭", "target": "混老頭", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 149, "description": "Scoring: half flush", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "混一色", "target": "混一色", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 150, "description": "Scoring: twice identical sequences", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "二盃口", "target": "二盃口", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 151, "description": "Scoring: blessing of man", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "人和", "target": "人和", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 152, "description": "Scoring: thirteen orphans", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "国士無双", "target": "國士無雙", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 153, "description": "Scoring: big three dragons", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "大三元", "target": "大三元", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 154, "description": "Scoring: big four winds", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "大四喜", "target": "大四喜", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 155, "description": "Scoring: blessing of earth", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "地和", "target": "地和", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 156, "description": "Scoring: all green", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "緑一色", "target": "綠一色", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 157, "description": "Scoring: nine gates", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "九連宝燈", "target": "九蓮寶燈", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 158, "description": "Scoring: bonus tiles", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "ドラ", "target": "寶牌", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 159, "description": "Scoring: four concealed triplets single wait", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "四暗刻単騎", "target": "四暗刻單騎", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 160, "description": "Scoring: nine gates nine-sided wait", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "九連宝燈九面", "target": "純正九蓮寶燈", "rect": [0, 0, 88, 16] }] },
+    { "packageId": 0, "resourceId": 161, "description": "Scoring: thirteen orphans thirteen-sided wait", "style": { "fill": 13, "outline": 1, "background": 1 }, "labels": [{ "source": "国士十三面", "target": "國士無雙十三面", "rect": [0, 0, 88, 16] }] }
+  ],
+  "patternEdits": [
+    {
+      "packageId": 1, "resourceId": 446,
+      "description": "Separate hard difficulty from the shared difficulty label; relocate instant speed",
+      "frames": [
+        { "index": 3, "before": "0300662002000000000015202200000004001520320000000800", "after": "01006620120000005500" },
+        { "index": 10, "before": "0300662005000000550015202500000059008420350000005b00", "after": "01006620150000005900" }
+      ]
+    }
+  ],
+  "untranslated": [
+    "Illustrated Japanese title logo and stylized GAME OVER, start and free-battle banners",
+    "START hold instruction remains unresolved in this bitmap pass; save-initialization confirmation belongs to main script 0x20554c, outside this pass",
+    "Character profiles and illustrated team emblems; dialogue and opponent HUD names are localized",
+    "Other small HUD labels, scoring units and result totals; player names and all seven right-menu actions are localized",
+    "Album illustrated team/ending emblems, P-series team identifiers and credits",
+    "Debug UI and other non-script strings"
+  ]
+}

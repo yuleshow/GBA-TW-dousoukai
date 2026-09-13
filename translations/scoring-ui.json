@@ -1,0 +1,13 @@
+{
+  "assets": [
+    {
+      "packageId": 0,
+      "resourceId": 162,
+      "description": "Result han unit; SCR 163, number images and scoring values unchanged",
+      "style": { "fill": 13, "outline": 1, "background": 1 },
+      "labels": [
+        { "source": "飜", "target": "番", "rect": [0, 0, 16, 16] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.DS_Store
+work/
+build/
+*.gba
+*.sav
+*.srm
+*.ss[0-9]*
+*.state
+*.state.*
+*.zip
+.env
+.env.*

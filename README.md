@@ -6,6 +6,12 @@
 
 目前為可執行的測試版，**不是完整漢化正式版**。本倉庫提供建置工具、譯文、圖像文字配置與字型，不提供原版或修改版 ROM。請自行準備合法取得、符合下列版本的原始遊戲資料。
 
+## 下載
+
+最新測試版 IPS 補丁：[dousoukai-zh-Hant.ips](https://github.com/yuleshow/GBA-TW-dousoukai/releases/latest/download/dousoukai-zh-Hant.ips)
+
+IPS 補丁僅適用於下方支援的日版 ROM。請參閱[發布頁](https://github.com/yuleshow/GBA-TW-dousoukai/releases)取得版本說明與下載。
+
 ## 使用
 
 依下方「重建」步驟在本機產生 ROM 與 IPS 補丁，再使用 [mGBA](https://mgba.io/) 開啟產生的 GBA 檔案。
@@ -46,8 +52,8 @@ IPS 補丁可用 IPS 工具套用到相同版本的原始日版 ROM；不要套�
 需要 Node.js 22 以上與 `unzip`。建置工具使用 Node.js 內建模組，不需要執行 `npm install`；字型及授權文件已包含於倉庫。
 
 ```sh
-git clone https://github.com/yuleshow/dousoukai-gba-zh.git
-cd dousoukai-gba-zh
+git clone https://github.com/yuleshow/GBA-TW-dousoukai.git
+cd GBA-TW-dousoukai
 ```
 
 將自行準備的日版 ROM 壓縮檔放在以下位置。ZIP 內須包含同名 GBA 檔案；原始 ZIP、解壓檔案與建置產物均由 Git 忽略。
@@ -113,6 +119,6 @@ SDK 路徑依本機安裝調整。驗證工具的參數為 `影格數:按鍵位�
 
 ## 回報問題
 
-請在 [GitHub Issues](https://github.com/yuleshow/dousoukai-gba-zh/issues) 提供角色、場景、重現步驟、模擬器版本及使用的提交版本，並註明是否載入舊即時存檔。文字或排版問題可附截圖；請勿附上 ROM 或原始遊戲壓縮檔。
+請在 [GitHub Issues](https://github.com/yuleshow/GBA-TW-dousoukai/issues) 提供角色、場景、重現步驟、模擬器版本及使用的提交版本，並註明是否載入舊即時存檔。文字或排版問題可附截圖；請勿附上 ROM 或原始遊戲壓縮檔。
 
 本專案與原遊戲權利人無關，遊戲名稱、角色及原始素材的權利歸各自權利人所有。

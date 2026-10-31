@@ -1,5 +1,7 @@
 # 超級真實麻將同窗會：繁體中文化
 
+![超級真實麻將同窗會繁體中文化橫幅](assets/dousoukai-zh-Hant-marquee.png)
+
 ![超級真實麻將同窗會封面](assets/fonts/cover.png)
 
 《Super Real Mahjong Dousoukai》（Game Boy Advance 日版）的非官方繁體中文化工具與翻譯資料。
@@ -11,6 +13,19 @@
 最新測試版 IPS 補丁：[dousoukai-zh-Hant.ips](https://github.com/yuleshow/GBA-TW-dousoukai/releases/latest/download/dousoukai-zh-Hant.ips)
 
 IPS 補丁僅適用於下方支援的日版 ROM。請參閱[發布頁](https://github.com/yuleshow/GBA-TW-dousoukai/releases)取得版本說明與下載。
+
+## 螢幕擷圖
+
+<table>
+  <tr>
+    <td><img src="assets/screenshots/dousoukai-zh-Hant-261031-125856.png" alt="繁體中文對話畫面一"></td>
+    <td><img src="assets/screenshots/dousoukai-zh-Hant-261031-125941.png" alt="繁體中文對話畫面二"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/dousoukai-zh-Hant-261031-130042.png" alt="繁體中文麻將對戰畫面"></td>
+    <td><img src="assets/screenshots/dousoukai-zh-Hant-261031-130104.png" alt="繁體中文結算畫面"></td>
+  </tr>
+</table>
 
 ## 使用
 

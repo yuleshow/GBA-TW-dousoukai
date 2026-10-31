@@ -2,7 +2,7 @@
 
 ![超級真實麻將同窗會繁體中文化橫幅](assets/dousoukai-zh-Hant-marquee.png)
 
-![超級真實麻將同窗會封面](assets/fonts/cover.png)
+![超級真實麻將同窗會封面](assets/cover.png)
 
 《Super Real Mahjong Dousoukai》（Game Boy Advance 日版）的非官方繁體中文化工具與翻譯資料。
 
